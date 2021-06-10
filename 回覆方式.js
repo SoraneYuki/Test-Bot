@@ -18,7 +18,14 @@ TestBot.on("message", message =>
         {
 
             case "喵~":
-            message.channel.send("喵～～");
+
+                message.channel.send("喵～～");
+
+            break;
+
+            case "Hi":
+
+                message.channel.send("Hello!!!");
 
             break;
 
