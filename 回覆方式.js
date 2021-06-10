@@ -31,7 +31,17 @@ TestBot.on("message", message =>
 
         }
 
+        // 那如果是要當那個關鍵詞有出現在語句中就觸發是要怎樣呢
+        // 像是玩過我的Bot的人都知道，當您打"應該"打成"因該"，就會觸發"抓到!!!(๑･`▱´･๑)"
+        // 就要用到includes了，如下：
 
+        if(message.content.includes("因該"))
+        {
+
+            message.channel.send("抓到!!!");
+            return;
+
+        }
         
     }
 
