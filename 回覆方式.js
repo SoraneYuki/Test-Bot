@@ -43,7 +43,7 @@ TestBot.on("message", message =>
 
         }
 
-        // 未完
+        // 如果要加入表情符號
         
     }
 
